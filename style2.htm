@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No Stylesheet</title>
+    <style>
+        /* 배경과 텍스트 스타일 */
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #000000;
+            color: #84c754;
+            margin: 20px;
+            line-height: 1.8;
+        }
+
+        /* 상단 헤더 */
+        #top {
+            background-color: #000;
+            font-weight: bold;
+            font-size: 32px;
+
+        }
+
+        #top p {
+            font-size: 15px;
+            display: block;
+            color: #84c754;
+            text-decoration: none;
+        }
+
+
+        #menubar a {
+            display: block;
+            color: #84c754;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+        #menubar a:hover {
+            color: white;
+        }
+
+        #menubar a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+
+        #main h1, #main h2 {
+            color: #84c754;
+            font-size: 28px;
+        }
+
+        #main a {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+
+        /* 사이드바 */
+        #bottom {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            border: 2px solid #84c754;
+            border-radius: 10px;
+        }
+
+        #sidebar h3 {
+            color: #84c754;
+        }
+
+
+    </style>
+</head>
+<body>
+
+  <!-- 상단 헤더 -->
+  <div id="top">
+    Welcome to 김성빈's Homepage 21900113
+  </div>
+
+  <div id="top p">
+    Use the menu to select different Stylesheets
+  </div>
+
+  <div id="menubar">
+    <ul>
+        <li> <a href="index.htm">NO stylesheet</a>
+        <li> <a href="style1.htm">Stylesheet 1</a>
+        <li> <a href="style2.htm">Stylesheet 2</a>
+    </ul>
+  </div>
+
+  <div id="main">
+    <h1>Same Page Different Stylesheets</h1>
+    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:</p>
+    <p><a href="index.htm">No Stylesheet</a>, <a href="style1.htm">Stylesheet 1</a>, <a href="style2.htm">Stylesheet 2</a>
+
+    <h2>No Styles</h2>
+    <p>This page uses DIV elements to group different sections of the HTML page. Click here to see how the page looks like with no stylesheet:</p>
+    <p><a href="index.htm">No Stylesheet</a></p>
+  </div>
+
+  
+  <div id="bottom">
+    <h3>Side-Bar</h3>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  </div>
+  <br/>
+  
+  <div id="bottom">
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+  </div>
+
+</body>
+</html>
